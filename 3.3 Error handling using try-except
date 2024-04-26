@@ -1,0 +1,7 @@
+//Demonstrate error handling using try-except.
+
+try:
+print(x)
+except:
+print("something is wrong")print(tuple_2)
+ 
