@@ -1,0 +1,10 @@
+//Use for loop to accept 6 numbers from user and return sum and average.
+
+
+sum = 0.0
+count = 0
+for i in range(6):
+num = float(input("Please enter a number:"))
+sum = sum+num
+count = count+1
+print(sum,round(sum/count,3))
