@@ -1,0 +1,17 @@
+//Define two sets and perform following operations on it.
+//a) Add items of both.
+//b) Perform intersection.
+//c) Get symmetric difference.
+//d) Remove items from any one set.
+
+
+set1 = {'satwik','soham','kannan','sameehan','shekhar'}
+set2 = {'satwik','ranvir','shinde','atharva','hitesh'}
+x= set1|set2
+print(x)
+y= set1.intersection(set2)
+print(y)
+z= set1.symmetric_difference(set2)
+print(z)
+set1.remove('soham')
+print(set1)
