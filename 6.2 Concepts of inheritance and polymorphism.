@@ -1,0 +1,17 @@
+//Write a program to illustrate concepts of inheritance and polymorphism.
+
+class Animal:
+ def speak(self):
+  return "Animal speaks"
+class Dog(Animal):
+ def speak(self):
+  return "Dog barks"
+class Cat(Animal):
+ def speak(self):
+  return "Cat meows"
+def make_sound(animal):
+ return animal.speak()
+dog = Dog()
+cat = Cat()
+print("Dog says:", make_sound(dog))
+print("Cat says:", make_sound(cat))
