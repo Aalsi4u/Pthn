@@ -1,0 +1,10 @@
+//Create an empty list and use for loop to add 8 items in it accepted from the user. Print the list in forward and reverse alphabetical orders.
+
+my_list=[]
+for i in range(8):
+item= input("Enter item {}: ".format(i+1))
+my_list.append(item)
+print("Forward alphabetical order:")
+print(sorted(my_list))
+print("Reverse alphabetical order:")
+print(sorted(my_list, reverse=True))
