@@ -1,0 +1,12 @@
+//Write a program to read from a CSV file.
+
+import csv
+with open('data.csv', mode='r') as file:
+ csv_reader = csv.reader(file)
+ for row in csv_reader:
+ print(row)
+CSV File
+ Name, Age, Country
+ John, 30, USA
+ Alice, 25, Canada
+ Bob, 35, UK
