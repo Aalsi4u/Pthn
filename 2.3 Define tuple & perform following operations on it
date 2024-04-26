@@ -1,0 +1,16 @@
+//Define a tuple and perform following operations on it.
+//a. Access tuple items by index.
+//b. Print last four items of it.
+//c. Add two items at index 2, and 3.
+//d. Copy a tuple in another variable.
+
+tuple_name = ('satwik','shekhar','soham','sameehan','kannan','atharva')
+print(tuple_name[0])
+print(tuple_name[-4::])
+list = list(tuple_name)
+list.insert(2,'anil')
+list.insert(3,'yaseer')
+tuple_name= tuple(list)
+print(tuple_name)
+tuple_2=tuple(tuple_name)
+print(tuple_2)
