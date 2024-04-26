@@ -1,0 +1,12 @@
+// To obtain total power consumed and power factor from two wattmeter readings
+
+import math
+x=float(input("Enter the reading of wattmeter 1:"))
+y=float(input("Enter the reading of wattmeter 2:"))
+m=x+y
+z=float(math.atanh((math.sqrt(3))*(x-y)/(x+y)))
+n=math.degrees(z)
+print("Total power=")
+print(m)
+print("power factor=")
+print(n)
