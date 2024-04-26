@@ -1,0 +1,7 @@
+//Write a program to sort NumPy arrays numerically and alphabetically.
+
+import numpy as np
+arr1 = np.array([3, 2, 0, 1])
+arr2= np.array(['banana', 'cherry', 'apple'])
+print(np.sort(arr1))
+print(np.sort(arr2))
