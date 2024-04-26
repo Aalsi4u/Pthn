@@ -1,0 +1,12 @@
+//Write and execute Python program using While loop to print numbers divisible by 3 or 5 in the range 0-40. Also use break-continue.
+
+
+i=0
+while i<41:
+if i%3==0 or i%5==0:
+print(i)	
+i=i+1
+else:
+i=i+1print(list2)
+ist2.pop(2)
+print(list2)
