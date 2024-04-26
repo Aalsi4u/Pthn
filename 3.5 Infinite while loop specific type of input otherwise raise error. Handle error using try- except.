@@ -1,0 +1,16 @@
+//Using infinite while loop, write and execute a program to that expects user to give only a specific type of input otherwise raise error. Handle eroor using try- except.
+
+
+while True:
+x_str = input('Please enter an even number:')
+try:
+x = int(x_str)
+if x%2==0:
+print("Thank you!")
+break
+else:
+print("input is odd number")
+continue
+except:
+print("Invalid input!!")
+              
