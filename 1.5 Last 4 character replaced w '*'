@@ -1,0 +1,5 @@
+//Accept input string from user as password. Reprint it displaying only last four characters and remaining characters replaced with "*".
+
+str=input("Enter the password:")
+print(str.lower())
+print("*"*(len(str)-4)+str(-4:])
