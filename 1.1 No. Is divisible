@@ -1,0 +1,6 @@
+//Test whether a number is divisible by 7 or not. If yes return 'True' else return 'False'
+
+print('check whether a number is divisible by 7')
+num=int(input('Enter a number'))
+x=num%7
+print(x==0)
