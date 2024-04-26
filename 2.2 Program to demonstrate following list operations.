@@ -1,0 +1,23 @@
+//Program to demonstrate following list operations. 
+//a. Adding items in the end.
+//b. Adding items in between.
+//c. Clearing list.
+//d. Deleting item by name.
+//e. Deleting item by index.
+//f. Joining two lists.
+
+list=['apple','banana','orange','strawberry','kiwi','mango','cherry']
+list.append('chickoo')
+print(list)
+list.insert(3,'dragonfruit')
+print(list)
+list.clear()
+print(list)
+list2=['satwik','soham','shekhar','ranvir','atharva']
+list2.remove("soham")
+print(list2)
+list2.pop(2)
+print(list2)
+name=['sameehan']
+list2.extend(name)
+print(list2)
