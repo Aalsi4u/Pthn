@@ -1,0 +1,11 @@
+//Write a python function that takes a list and returns a new list with distinct element from the first list.
+//Sample List : [1,2,3,3,3,3,4,5]
+//Unique List : [1,2,3,4,5]
+
+
+def a(il):
+return list(set(il))
+b = [1, 2, 3, 3, 3, 3, 4, 5]
+c = a(b)
+print("Sample List:", b)
+print("Unique List:", c)
