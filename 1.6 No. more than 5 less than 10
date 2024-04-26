@@ -1,0 +1,4 @@
+//Test if a number is more than 5 and less than 10. Return 'True' or 'False'.
+
+x=int(input("Enter a number greater than 5 and less than 10:")) 
+print(10>x & x>5)
