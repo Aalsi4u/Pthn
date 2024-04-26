@@ -1,0 +1,19 @@
+//Create a dictionary of two data sets and do the following.
+//a. Change value of a key in one of the data sets.
+//b. Access keys of each data set.
+//c. Print the dictionary using for loop
+
+
+data_set1 = {'a': 1, 'b': 2, 'c': 3}
+data_set2 = {'x': 10, 'y': 20, 'z': 30}
+data_set1['b'] = 5
+print("Updated data set 1:", data_set1)
+keys_data_set1 = data_set1.keys()
+keys_data_set2 = data_set2.keys()
+print("Keys of data set 1:", keys_data_set1)
+print("Keys of data set 2:", keys_data_set2)
+print("Printing the dictionary using for loop:")
+for key, value in data_set1.items():
+print(key, ":", value)
+for key, value in data_set2.items():
+print(key, ":", value)
