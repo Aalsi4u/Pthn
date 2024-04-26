@@ -1,0 +1,6 @@
+//Test if palindrome or not. If yes then True
+
+x=input('Enter a word whether it is palindrome:')
+x=x.lower()
+y= x[::-1]
+print(x==y)
