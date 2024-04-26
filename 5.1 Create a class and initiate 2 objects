@@ -1,0 +1,11 @@
+//Write a program to create a class and initiate 2 objects.
+
+class MyClass:
+ def __init__(self, name):
+  self.name = name
+ def display(self):
+  print("Hello, my name is", self.name)
+obj1 = MyClass("Object 1")
+obj2 = MyClass("Object 2")
+obj1.display()
+obj2.display()
