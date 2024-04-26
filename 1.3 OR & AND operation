@@ -1,0 +1,6 @@
+//Take two numbers from user perform OR & AND operation 
+
+x=int(input('Enter A='))
+y=int(input('Enter B='))
+print(xly)
+print(x&y)
